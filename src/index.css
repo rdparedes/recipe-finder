@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  font-size: 13px;
+}
+
+header {
+  display: flex;
+  background-color: #292b2c;
+  color: #ffffff;
+  align-items: center;
+  padding: 12px;
+}
+
+a {
+  color: #2f72d1;
+  text-decoration: none;
+}
+
+header h1 {
+  font-size: 14px;
+  margin: 0;
+}
+
+header .menu-items {
+  margin-left: 1.5em;
+  font-size: 12px;
+}
+
+header .menu-items a,
+header .menu-items a:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  padding: 24px;
+}
+
+.search-field {
+  display: flex;
+}
+
+.recipes {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0 0;
+}
+
+.recipes li {
+  padding: 10px 0 10px 10px;
+}
+
+.recipes li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.search-field input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #dadada;
+  margin: 0;
+}
+
+.search-field button {
+  width: 7em;
+  border: 1px solid #dadada;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+}
